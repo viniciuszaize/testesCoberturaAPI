@@ -1,0 +1,8 @@
+base\BaseTest.class
+commands\UserCommands.class
+tests\Loadtestes\LoadUserTest.class
+helpers\Utils.class
+tests\UserNegativeTest.class
+helpers\ApiHelper.class
+tests\UserPositiveTest.class
+commands\LoadCommands.class

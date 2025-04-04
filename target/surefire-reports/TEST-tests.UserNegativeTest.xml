@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.UserTestPositive" time="17.652" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.UserNegativeTest" time="8.744" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,8 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\vinicius.zaize\AppData\Local\Temp\surefire9091873522710608087\surefirebooter-20250404155045775_3.jar C:\Users\vinicius.zaize\AppData\Local\Temp\surefire9091873522710608087 2025-04-04T15-50-44_315-jvmRun1 surefire-20250404155045775_1tmp surefire_0-20250404155045775_2tmp"/>
-    <property name="test" value="UserTestPositive#listaDeUsuarioCriado"/>
+    <property name="sun.java.command" value="C:\Users\vinicius.zaize\AppData\Local\Temp\surefire3840452295009965035\surefirebooter-20250404195731946_3.jar C:\Users\vinicius.zaize\AppData\Local\Temp\surefire3840452295009965035 2025-04-04T19-57-30_743-jvmRun1 surefire-20250404195731946_1tmp surefire_0-20250404195731946_2tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\vinicius.zaize\OneDrive - Accenture\desktop\TestApiRestAssured\api-tests\target\test-classes;C:\Users\vinicius.zaize\OneDrive - Accenture\desktop\TestApiRestAssured\api-tests\target\classes;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vinicius.zaize\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vinicius.zaize\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vinicius.zaize\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\vinicius.zaize"/>
@@ -33,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\vinicius.zaize\AppData\Local\Temp\surefire9091873522710608087\surefirebooter-20250404155045775_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vinicius.zaize\AppData\Local\Temp\surefire3840452295009965035\surefirebooter-20250404195731946_3.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_341\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,8 +62,58 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="listaDeUsuarioCriado" classname="tests.UserTestPositive" time="16.852">
-    <system-out><![CDATA[Usuário criado: qa1743792649231@teste.com | ID: JVKUnEjNBkSHSRAS
+  <testcase name="EditarUsuarioComEmailEmUso" classname="tests.UserNegativeTest" time="3.098">
+    <system-out><![CDATA[Usuário criado: qa1743807464071@teste.com | ID: a2FbzLj371qe9XDH
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0NjQwNzFAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDY2LCJleHAiOjE3NDM4MDgwNjZ9.BHlsBIw9SdTZ0NMtxbG5yEr4ZwTWhNfEKE4LgKmDmus"
+}
+Response Body: {
+    "message": "Este email já está sendo usado"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeletarUsuarioComCarrinhoAtrelado" classname="tests.UserNegativeTest" time="1.619">
+    <system-out><![CDATA[Usuário criado: qa1743807467169@teste.com | ID: 5vHMJsyTtavZjWVU
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0NjcxNjlAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDY4LCJleHAiOjE3NDM4MDgwNjh9.QCAJdg5F3jcRYMd9jhsD84RpSCn5RjpRx6vr5Irf0LI"
+}
+Response Body: {
+    "message": "Não é permitido excluir usuário com carrinho cadastrado",
+    "idCarrinho": "qbMqntef4iTOwWfg"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ListaUsuarioErro" classname="tests.UserNegativeTest" time="1.845">
+    <system-out><![CDATA[Usuário criado: qa1743807468788@teste.com | ID: qQShK4iVwa0WOPJf
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0Njg3ODhAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDcwLCJleHAiOjE3NDM4MDgwNzB9.s3zAyKgdMVmgiW-9mq3PhJK2pJEDKRPhAtk0MQg6DLs"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginComErro" classname="tests.UserNegativeTest" time="0.429">
+    <system-out><![CDATA[Response Body: {
+    "message": "Email e/ou senha inválidos"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="CriarUsuarioComEmailJaCadastrado" classname="tests.UserNegativeTest" time="0.432">
+    <system-out><![CDATA[Response Body: {
+    "message": "Este email já está sendo usado"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="BuscaUsuarioErro" classname="tests.UserNegativeTest" time="1.318">
+    <system-out><![CDATA[Usuário criado: qa1743807471497@teste.com | ID: BJe0XZhy4Lryt5Sc
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0NzE0OTdAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDcyLCJleHAiOjE3NDM4MDgwNzJ9.RAl118d7G5C2R2gcj4brMuZ-s4xTW928YVqi38jZuNo"
+}
+Response Body: {
+    "message": "Usuário não encontrado"
+}
 ]]></system-out>
   </testcase>
 </testsuite>

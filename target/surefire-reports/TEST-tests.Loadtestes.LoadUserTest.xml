@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.UserTestNegative" time="6.274" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.Loadtestes.LoadUserTest" time="9.27" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,8 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\vinicius.zaize\AppData\Local\Temp\surefire4814573717612186609\surefirebooter-20250404165345165_3.jar C:\Users\vinicius.zaize\AppData\Local\Temp\surefire4814573717612186609 2025-04-04T16-53-43_796-jvmRun1 surefire-20250404165345165_1tmp surefire_0-20250404165345165_2tmp"/>
-    <property name="test" value="UserTestNegative#DeletarUsuarioComCarrinhoAtrelado"/>
+    <property name="sun.java.command" value="C:\Users\vinicius.zaize\AppData\Local\Temp\surefire3840452295009965035\surefirebooter-20250404195731946_3.jar C:\Users\vinicius.zaize\AppData\Local\Temp\surefire3840452295009965035 2025-04-04T19-57-30_743-jvmRun1 surefire-20250404195731946_1tmp surefire_0-20250404195731946_2tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\vinicius.zaize\OneDrive - Accenture\desktop\TestApiRestAssured\api-tests\target\test-classes;C:\Users\vinicius.zaize\OneDrive - Accenture\desktop\TestApiRestAssured\api-tests\target\classes;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vinicius.zaize\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vinicius.zaize\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vinicius.zaize\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\vinicius.zaize"/>
@@ -33,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\vinicius.zaize\AppData\Local\Temp\surefire4814573717612186609\surefirebooter-20250404165345165_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vinicius.zaize\AppData\Local\Temp\surefire3840452295009965035\surefirebooter-20250404195731946_3.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_341\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,8 +62,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="DeletarUsuarioComCarrinhoAtrelado" classname="tests.UserTestNegative" time="5.63">
-    <system-out><![CDATA[Usuário criado: qa1743796428157@teste.com | ID: R7pzTaw22ASVmCQh
+  <testcase name="testeCargaCriarUsuario" classname="tests.Loadtestes.LoadUserTest" time="8.558">
+    <system-out><![CDATA[Executando lote de 100 requisições...
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -27,7 +27,7 @@ public class LoadCommands {
                 try {
                     int statusCode = resultado.get();
                     if (statusCode == 429) {
-                        System.out.println("⚠️ Limite de requisições atingido! (429 Too Many Requests)");
+                        System.out.println("Limite de requisições atingido! (429 Too Many Requests)");
                     }
                 } catch (Exception e) {
                     System.err.println("Erro ao processar requisição: " + e.getMessage());

@@ -7,7 +7,7 @@ import commands.LoadCommands;
 import commands.UserCommands;
 import helpers.ApiHelper;
 
-public class LoadTestUser extends ApiHelper{
+public class LoadUserTest extends ApiHelper{
     
    @Test
    public void testeCargaCriarUsuario() {

@@ -94,6 +94,8 @@ public class UserCommands {
         }
         String message = response.jsonPath().getString("message");
             assertEquals("Login realizado com sucesso", message);
+
+        System.out.println("Response Body: " + response.getBody().asString());
     }
     
     public static void BuscarUsuarioId() {
@@ -135,6 +137,7 @@ public class UserCommands {
                 .extract().response();
                 String message = response.jsonPath().getString("message");
                  assertEquals("Registro alterado com sucesso", message);
+                 System.out.println("Response Body: " + response.getBody().asString());
     }
 
     public static void CriarUsuarioComIdDiferente() {
@@ -164,6 +167,7 @@ public class UserCommands {
 
                 assertEquals("Cadastro realizado com sucesso", message);
                 System.out.println("Novo ID" + newIdString);
+                System.out.println("Response Body: " + response.getBody().asString());
     }
 
     public static void DeletarUsuario(){
@@ -180,6 +184,7 @@ public class UserCommands {
                 .extract().response();
                 String message = response.jsonPath().getString("message");
                  assertEquals("Registro excluído com sucesso", message);
+                 System.out.println("Response Body: " + response.getBody().asString());
 
     }
 
@@ -197,6 +202,7 @@ public class UserCommands {
                 .extract().response();
                 String message = response.jsonPath().getString("message");
                  assertEquals("Nenhum registro excluído", message);
+                 System.out.println("Response Body: " + response.getBody().asString());
 
     }
 
@@ -215,8 +221,7 @@ public class UserCommands {
                 String usuarios = response.jsonPath().getString("usuarios");
                 assertNotNull(quantidade);
                 assertNotNull(usuarios);
-                
-
+                System.out.println("Response Body: " + response.getBody().asString());
     }
 
     public static void ListaDeUsuarioCriado(){
@@ -239,6 +244,7 @@ public class UserCommands {
                 assertEquals("Fulano da Silva", nome);
                 assertEquals(idUsuario, idRetornado);
                 assertEquals(emailUsuario, email);
+                System.out.println("Response Body: " + response.getBody().asString());
     }
 //// testes negativos 
     public static void CriarUsuarioEmailJaUsado(){
@@ -261,6 +267,7 @@ public class UserCommands {
 
                 String message = response.jsonPath().getString("message");
                 assertEquals("Este email já está sendo usado", message);
+                System.out.println("Response Body: " + response.getBody().asString());
     }
 
     public static void LoginInvalido(){
@@ -278,8 +285,9 @@ public class UserCommands {
                     .statusCode(401)
                     .extract().response();
     
-            String message = response.jsonPath().getString("message");
-                assertEquals("Email e/ou senha inválidos", message);
+                    String message = response.jsonPath().getString("message");
+                    assertEquals("Email e/ou senha inválidos", message);
+                    System.out.println("Response Body: " + response.getBody().asString());
     }
 
     public static void BuscarUsuarioInvalido() {
@@ -299,6 +307,7 @@ public class UserCommands {
     
                 String message = response.jsonPath().getString("message");
                 assertEquals("Usuário não encontrado", message);
+                System.out.println("Response Body: " + response.getBody().asString());
     }
 
     public static void EditarUsuarioComEmailJaExistente() {
@@ -322,6 +331,7 @@ public class UserCommands {
                 .extract().response();
                 String message = response.jsonPath().getString("message");
                  assertEquals("Este email já está sendo usado", message);
+                 System.out.println("Response Body: " + response.getBody().asString());
     }
 
     public static void ListaDeUsuariosNullo(){
@@ -357,6 +367,6 @@ public class UserCommands {
                 .extract().response();
                 String message = response.jsonPath().getString("message");
                 assertEquals("Não é permitido excluir usuário com carrinho cadastrado", message);
-
+                System.out.println("Response Body: " + response.getBody().asString());
     }
 }

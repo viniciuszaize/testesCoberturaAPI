@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import commands.UserCommands;
 import helpers.ApiHelper;
 
-public class UserTestNegative extends ApiHelper {
+public class UserNegativeTest extends ApiHelper {
 
     @Test
     public void CriarUsuarioComEmailJaCadastrado() {

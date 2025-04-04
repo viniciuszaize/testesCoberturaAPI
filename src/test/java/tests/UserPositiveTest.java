@@ -4,7 +4,7 @@ import commands.UserCommands;
 import helpers.ApiHelper;
 
 
-public class UserTestPositive extends ApiHelper  {
+public class UserPositiveTest extends ApiHelper  {
 
     @Test
     public void CriarUsuario() {

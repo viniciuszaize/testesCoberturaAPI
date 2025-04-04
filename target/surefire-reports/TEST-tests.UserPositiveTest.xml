@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.UserPositiveTest" time="21.268" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\vinicius.zaize\OneDrive - Accenture\desktop\TestApiRestAssured\api-tests\target\test-classes;C:\Users\vinicius.zaize\OneDrive - Accenture\desktop\TestApiRestAssured\api-tests\target\classes;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vinicius.zaize\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vinicius.zaize\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vinicius.zaize\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="user.country.format" value="BR"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\vinicius.zaize\AppData\Local\Temp\surefire3840452295009965035\surefirebooter-20250404195731946_3.jar C:\Users\vinicius.zaize\AppData\Local\Temp\surefire3840452295009965035 2025-04-04T19-57-30_743-jvmRun1 surefire-20250404195731946_1tmp surefire_0-20250404195731946_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\vinicius.zaize\OneDrive - Accenture\desktop\TestApiRestAssured\api-tests\target\test-classes;C:\Users\vinicius.zaize\OneDrive - Accenture\desktop\TestApiRestAssured\api-tests\target\classes;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vinicius.zaize\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vinicius.zaize\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vinicius.zaize\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\vinicius.zaize\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\vinicius.zaize\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vinicius.zaize"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_341\jre"/>
+    <property name="basedir" value="C:\Users\vinicius.zaize\OneDrive - Accenture\desktop\TestApiRestAssured\api-tests"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\vinicius.zaize\AppData\Local\Temp\surefire3840452295009965035\surefirebooter-20250404195731946_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_341\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_341-b10"/>
+    <property name="user.name" value="vinicius.zaize"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\vinicius.zaize\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VINICI~1.ZAI\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_341"/>
+    <property name="user.dir" value="C:\Users\vinicius.zaize\OneDrive - Accenture\Desktop\TestApiRestAssured\api-tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\vinicius.zaize\bin;C:\Users\vinicius.zaize\AppData\Local\Programs\Git\mingw64\bin;C:\Users\vinicius.zaize\AppData\Local\Programs\Git\usr\local\bin;C:\Users\vinicius.zaize\AppData\Local\Programs\Git\usr\bin;C:\Users\vinicius.zaize\AppData\Local\Programs\Git\usr\bin;C:\Users\vinicius.zaize\AppData\Local\Programs\Git\cmd;C:\Users\vinicius.zaize\AppData\Local\Programs\Git\usr\bin;C:\Users\vinicius.zaize\OneDrive - Accenture\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\vinicius.zaize\OneDrive - Accenture\vendor\conemu-maximus5;C:\Users\vinicius.zaize\OneDrive - Accenture\vendor\conemu-maximus5\ConEmu;C:\Python310\Scripts;C:\Python310;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X64;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X86;C:\Program Files\apache\maven\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\node ...\node_modules.bin;C:\Program Files\nodejs;C:\Program Files\PuTTY;C:\Program Files\ServiceNow\agent-client-collector\bin;C:\Program Files\ServiceNow\agent-client-collector\embedded\bin;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Program Files\apache\maven;C:\Users\vinicius.zaize\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vinicius.zaize\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vinicius.zaize\AppData\Local\Programs\Git\usr\bin\vendor_perl;C:\Users\vinicius.zaize\AppData\Local\Programs\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.341-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="listaDeUsuarioCriado" classname="tests.UserPositiveTest" time="11.325">
+    <system-out><![CDATA[Usuário criado: qa1743807472815@teste.com | ID: IbgJDG14c7E8TC78
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0NzI4MTVAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDczLCJleHAiOjE3NDM4MDgwNzN9.56H3TfqGzOwlbIYUsN-BraBjr0NS9dIsidTTYQJfBHk"
+}
+Response Body: {
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743807472815@teste.com",
+            "_id": "IbgJDG14c7E8TC78"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletarUsuario" classname="tests.UserPositiveTest" time="1.546">
+    <system-out><![CDATA[Usuário criado: qa1743807484140@teste.com | ID: QqCODDB9khfALYFH
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0ODQxNDBAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDg1LCJleHAiOjE3NDM4MDgwODV9.3fGgLj-CKoFELfg5cZvepXzlrojaXtl9DJ4YR4Qf0JU"
+}
+Response Body: {
+    "message": "Registro excluído com sucesso"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="LoginUsuario" classname="tests.UserPositiveTest" time="0.887">
+    <system-out><![CDATA[Usuário criado: qa1743807485687@teste.com | ID: FnqRiTCuA13BNSWy
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0ODU2ODdAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDg2LCJleHAiOjE3NDM4MDgwODZ9.vpcKZcdPWN2EUoDZ4xZ9WLZmkq9i8NPdwB-PmBqioPw"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="listaDeUsuarios" classname="tests.UserPositiveTest" time="1.474">
+    <system-out><![CDATA[Usuário criado: qa1743807486578@teste.com | ID: qSU0Un3uS0W83zCn
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0ODY1NzhAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDg3LCJleHAiOjE3NDM4MDgwODd9.HHiz0Jfq_k4PN9_8jEwPLLUbgiRarf1Hzn9iUbRhOs8"
+}
+Response Body: {
+    "quantidade": 69,
+    "usuarios": [
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806908872@teste.com",
+            "_id": "0lVOAWWkMSCOZaWZ"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Rust",
+            "email": "SonOfRust@gmail.com",
+            "password": "GL22325",
+            "administrador": "true",
+            "_id": "1SbUy9o4Af8EHS7t"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806923762@teste.com",
+            "_id": "4EXkibhSTE2ThZpZ"
+        },
+        {
+            "nome": "Cassandra Little-Tillman",
+            "email": "Nasir_Abshire14@hotmail.com",
+            "password": "KKe7WqPwOUQoz1l",
+            "administrador": "true",
+            "_id": "4b29xPiHJZKYxJ1v"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806931135@teste.com",
+            "_id": "5fwbHdG0TzD8S5g6"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743807467169@teste.com",
+            "_id": "5vHMJsyTtavZjWVU"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806903548@teste.com",
+            "_id": "80by52pSJpKD56OT"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806692739@teste.com",
+            "_id": "8VrCzoI7PdQDVpgO"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Beltrano de Oliveira",
+            "email": "qa1743806929623@teste.com",
+            "_id": "8dBiSVpzDwn7f9xh"
+        },
+        {
+            "nome": "Maria Denesik",
+            "email": "Belle.Johnson@yahoo.com",
+            "password": "NGZvlI4JZP6N1ye",
+            "administrador": "true",
+            "_id": "9gDbSuoZBebOOB74"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743807471497@teste.com",
+            "_id": "BJe0XZhy4Lryt5Sc"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806925163@teste.com",
+            "_id": "C3vU3aJgOGIjljev"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Beltrano de Oliveira",
+            "email": "qa1743806926715@teste.com",
+            "_id": "CuKGMx7AFUiKbBfM"
+        },
+        {
+            "nome": "Dana Runolfsson",
+            "email": "Lolita9@hotmail.com",
+            "password": "1OYj4mURje3R9qD",
+            "administrador": "true",
+            "_id": "DfyEYVDOyB2EM2rQ"
+        },
+        {
+            "nome": "Dr. Lee Deckow",
+            "email": "Gavin10@hotmail.com",
+            "password": "Teste@123",
+            "administrador": "true",
+            "_id": "FQrbzvlpSLxd9QoJ"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743807485687@teste.com",
+            "_id": "FnqRiTCuA13BNSWy"
+        },
+        {
+            "nome": "Douglas",
+            "administrador": "true",
+            "email": "Cara77@yahoo.com",
+            "password": "BdqavmcvphzGmxG",
+            "_id": "FwdwMOe6mV1uJ9YH"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806900786@teste.com",
+            "_id": "Gr86Rqq2Zn8O3Qul"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743807472815@teste.com",
+            "_id": "IbgJDG14c7E8TC78"
+        },
+        {
+            "nome": "Douglas",
+            "administrador": "true",
+            "email": "Pat_Wisozk@yahoo.com",
+            "password": "W0dnDeUwMHFu9ep",
+            "_id": "J3yCysF8g1JjiDVV"
+        },
+        {
+            "nome": "Kairin Heres",
+            "email": "furlano@qa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "N5G52bQOhKamweQv"
+        },
+        {
+            "nome": "Inexistente",
+            "email": "inexistente@qa.com",
+            "password": "123",
+            "administrador": "false",
+            "_id": "Nct5t72xDCTVUJna"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "NepRKIPhxgMONmBZ"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806690849@teste.com",
+            "_id": "OUYybAYW4C26zXfD"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Beltrano de Oliveira",
+            "email": "qa1743806692282@teste.com",
+            "_id": "PzHPg3uUU4yCgB0H"
+        },
+        {
+            "nome": "wintrader",
+            "email": "wintrader100@gmail.com",
+            "password": "@wintrader100",
+            "administrador": "true",
+            "_id": "RsfIug1Tjbntsg2b"
+        },
+        {
+            "nome": "carlos",
+            "email": "umnome@sung.com",
+            "password": "senhadificil.123",
+            "administrador": "true",
+            "_id": "S3qEc3Fa0DQ11wkE"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806664841@teste.com",
+            "_id": "S5bgxjwgrXxXFzz2"
+        },
+        {
+            "nome": "Aroudo",
+            "email": "aroudo@32.com",
+            "password": "110504",
+            "administrador": "false",
+            "_id": "SQhgkV5MmrXAH7lB"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806686755@teste.com",
+            "_id": "UGSwePE6OmC5muRD"
+        },
+        {
+            "nome": "Jeferson",
+            "email": "Jeferson@gmail.com",
+            "password": "Test",
+            "administrador": "true",
+            "_id": "UaNoO5L1BGYkCgWH"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Wg8zjlod5Ykk9Aiy"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806905073@teste.com",
+            "_id": "XDjTeLfm5W8us9Sd"
+        },
+        {
+            "nome": "Luiz Napoles",
+            "email": "miguelsanapoles@gmail.com",
+            "password": "Miguel123",
+            "administrador": "true",
+            "_id": "XOmkfqR9xDvpeSkF"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806922832@teste.com",
+            "_id": "Y8fZV91y0bCAta1b"
+        },
+        {
+            "nome": "Saul Wunsch III",
+            "email": "Wayne85@hotmail.com",
+            "password": "Rk_9yRChtMUweJ5",
+            "administrador": "true",
+            "_id": "YSc2FZLixnVReK6c"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743807464071@teste.com",
+            "_id": "a2FbzLj371qe9XDH"
+        },
+        {
+            "nome": "Meredith Shields",
+            "email": "Karen.Sauer@gmail.com",
+            "password": "plRaL_9_bpwifda",
+            "administrador": "true",
+            "_id": "dPaH1sPD8ls249Sj"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806671682@teste.com",
+            "_id": "dVfyYviyZss1Wt1l"
+        },
+        {
+            "nome": "cafezinho",
+            "email": "1234dasilva5@cafe.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "e014rWznlz3WDzrJ"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Beltrano de Oliveira",
+            "email": "qa1743806689512@teste.com",
+            "_id": "eOWSQ784zkapEOg3"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806544719@teste.com",
+            "_id": "ewH0e7WlXWblheAI"
+        },
+        {
+            "nome": "Caio Araujo",
+            "email": "caio@ulife.com.br",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "fvVNvwdCGB3rEJbn"
+        },
+        {
+            "nome": "GabrielPará",
+            "email": "324137609@ulife.com.br",
+            "password": "12345678",
+            "administrador": "true",
+            "_id": "gMHF5cPoMdhCwGLa"
+        },
+        {
+            "nome": "neimajrew",
+            "email": "fulanno@qa.com",
+            "password": "fazolwe",
+            "administrador": "false",
+            "_id": "gXMofV7OgPBx1nG3"
+        },
+        {
+            "nome": "Mitchell Wolff",
+            "email": "Clyde26@hotmail.com",
+            "password": "nD_B0Vqqs33IjEZ",
+            "administrador": "true",
+            "_id": "kmM9puEv98KYtYRt"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806685822@teste.com",
+            "_id": "mEuSknkvg7A0DMGg"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806928518@teste.com",
+            "_id": "mKMRz8M5ykMoAVWD"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806673005@teste.com",
+            "_id": "maUkhOQ6qrJtuXLa"
+        },
+        {
+            "nome": "Dr. Marianne Wunsch",
+            "email": "Blanca.Nienow33@gmail.com",
+            "password": "13Z096vCubgNJdr",
+            "administrador": "true",
+            "_id": "n8oOgJ3mnPuzcBSb"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806668038@teste.com",
+            "_id": "ndpQAQRTm75xGRZR"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "nfWW0ez91HRIOXgq"
+        },
+        {
+            "nome": "Douglas",
+            "administrador": "true",
+            "email": "new_Jerrell87@hotmail.com",
+            "password": "JB8WP2u5E84UbnG",
+            "_id": "nwTa4WyUIFfaOeLz"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806669407@teste.com",
+            "_id": "o9xIA5subGzD5j1z"
+        },
+        {
+            "nome": "Herbert Beier-White",
+            "email": "Hortense2@hotmail.com",
+            "password": "rCIfbhF1EG5ifPv",
+            "administrador": "true",
+            "_id": "ojfdh94yQFrOB16V"
+        },
+        {
+            "nome": "Douglas",
+            "administrador": "true",
+            "email": "Roel_Quitzon@yahoo.com",
+            "password": "nzbpxhzLl0KDK1a",
+            "_id": "pHUvcwZqm3aBufjv"
+        },
+        {
+            "nome": "QA Robot API",
+            "email": "qa@qa.io",
+            "password": "123",
+            "administrador": "true",
+            "_id": "qBsNc99RVaMZimfC"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743807468788@teste.com",
+            "_id": "qQShK4iVwa0WOPJf"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743807486578@teste.com",
+            "_id": "qSU0Un3uS0W83zCn"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806693199@teste.com",
+            "_id": "sLPoWLmBI3EMkUa9"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806930581@teste.com",
+            "_id": "t1jJaGGwOrfVslX4"
+        },
+        {
+            "nome": "Patti Dickinson",
+            "email": "Kim.Feeney91@hotmail.com",
+            "password": "Teste@123",
+            "administrador": "true",
+            "_id": "tiWKUSpoJLWqOGJA"
+        },
+        {
+            "nome": "Ciclano",
+            "email": "ciclano@qa.com",
+            "password": "teste2",
+            "administrador": "false",
+            "_id": "u5WyldAWEOtEjK8E"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806688160@teste.com",
+            "_id": "v92gCDjZxPRXtvyr"
+        },
+        {
+            "nome": "ronaldo nazario",
+            "email": "fenomeno09@hotmail.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "w0bXDIxbNag9BaDw"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "qa1743806907506@teste.com",
+            "_id": "wQ50uS01MgX5JeUJ"
+        },
+        {
+            "nome": "Malu",
+            "email": "malubebe@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "wqa1z6hhp102vDvD"
+        },
+        {
+            "nome": "Alyssa Treutel",
+            "email": "Tamara28@gmail.com",
+            "password": "sDjSsMC6CLyYfYy",
+            "administrador": "true",
+            "_id": "zhk527C6wsb7X9FM"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="BuscarUsuario" classname="tests.UserPositiveTest" time="1.35">
+    <system-out><![CDATA[Usuário criado: qa1743807488052@teste.com | ID: ZMaySBD6D4WdIlYf
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0ODgwNTJAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDg5LCJleHAiOjE3NDM4MDgwODl9.8808On9cyNkp9FHv1mT1Syupmh_ApCnd5tT3a9cPCUM"
+}
+Response da busca: {
+    "password": "teste",
+    "administrador": "true",
+    "nome": "Fulano da Silva",
+    "email": "qa1743807488052@teste.com",
+    "_id": "ZMaySBD6D4WdIlYf"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="EditarUsuarioExistente" classname="tests.UserPositiveTest" time="1.313">
+    <system-out><![CDATA[Usuário criado: qa1743807489409@teste.com | ID: EnzoQyNDUOujR7wE
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0ODk0MDlAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDkwLCJleHAiOjE3NDM4MDgwOTB9.x-WYZKVo67jLdZmLw-mPk_vizq0EePW5FlsIuqJr7pI"
+}
+Response Body: {
+    "message": "Registro alterado com sucesso"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="CriarUsuarioUsandoEditarUsuario" classname="tests.UserPositiveTest" time="1.55">
+    <system-out><![CDATA[Usuário criado: qa1743807490737@teste.com | ID: 1geTPJxmocHrb06q
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0OTA3MzdAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDkxLCJleHAiOjE3NDM4MDgwOTF9.rSkZx4VXVvCPidjXfC0bH7S89Yph1Md1x1K9nMSrz2k"
+}
+Novo ID0VUAEQGQNunOp7RR
+Response Body: {
+    "message": "Cadastro realizado com sucesso",
+    "_id": "0VUAEQGQNunOp7RR"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="CriarUsuario" classname="tests.UserPositiveTest" time="0.458">
+    <system-out><![CDATA[Usuário criado: qa1743807492296@teste.com | ID: eoghGklfTUIJQLkX
+]]></system-out>
+  </testcase>
+  <testcase name="deletarUsuarioComIdNaoCadastrado" classname="tests.UserPositiveTest" time="1.338">
+    <system-out><![CDATA[Usuário criado: qa1743807492745@teste.com | ID: 7K9HA5VIMVq6YHnb
+Response Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRlc3RlIiwiZW1haWwiOiJxYTE3NDM4MDc0OTI3NDVAdGVzdGUuY29tIiwiaWF0IjoxNzQzODA3NDkzLCJleHAiOjE3NDM4MDgwOTN9.qZtrKf-Lhz_Va5m9qc7YSaLINiiuHwJxs_J0u1Aa8e0"
+}
+Response Body: {
+    "message": "Nenhum registro excluído"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -33,7 +33,7 @@ Para executar os testes, é necessário ter instalado:
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-repositorio.git
+   git clone https://github.com/viniciuszaize/testesCoberturaAPI.git
    ```
 
 2. Acesse a pasta do projeto:
