@@ -18,8 +18,17 @@ Os testes cobrem os seguintes cenários:
 - **Testes de Carga**: Simulação de múltiplas requisições para medir o desempenho e estabilidade da API.
 
 Todos os testes foram implementados para validar as possíveis respostas da API, incluindo status codes como **200 (OK), 201 (Criado), 400 (Bad Request), 401 (Não Autorizado)**.
+## O projeto está configurado com uma Pipeline CI/CD no GitLab
+É possivel rodar os teste diretamente do repo https://gitlab.com/automation-tests8370041/testesdecoberturaapi.git
 
 ## Como Executar os Testes
+1. Vá até opção Builds
+2.  clique em pipeline
+3.  clique em New pipeline
+4. escolha branch "Master" e clique em new pipeline
+5. após finalizar a run é possivel baixar os resultados clicando na opção "Actions"
+6. na opção jobs dentro da Builds é possivel visualizar os resultados 
+
 
 ### Pré-requisitos
 
@@ -34,6 +43,10 @@ Para executar os testes, é necessário ter instalado:
 1. Clone o repositório:
    ```sh
    git clone https://github.com/viniciuszaize/testesCoberturaAPI.git
+   ```
+   ou gitlab
+     ```sh
+   git clone https://gitlab.com/automation-tests8370041/testesdecoberturaapi.git
    ```
 
 2. Acesse a pasta do projeto:
