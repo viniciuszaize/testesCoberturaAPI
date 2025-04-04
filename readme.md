@@ -59,7 +59,7 @@ Para executar os testes, é necessário ter instalado:
 
 3. Execute os testes com Maven:
    ```sh
-   mvn test
+   mvn clean test
    ```
 
 Os relatórios de execução estarão disponíveis no diretório **target/surefire-reports**.
