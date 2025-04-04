@@ -1,0 +1,16 @@
+stages:
+  - test
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+
+test-api:
+  stage: test
+  image: maven:3.8.6-openjdk-11
+  script:
+    - echo "Iniciando os testes automatizados..."
+    - mvn clean test
+  artifacts:
+    paths:
+      - target/surefire-reports/
+    when: always
