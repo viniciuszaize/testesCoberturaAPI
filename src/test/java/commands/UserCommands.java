@@ -353,6 +353,7 @@ public class UserCommands {
                 assertTrue(usuarios.isEmpty());
 
     }
+    
     public static void DeletarUsuarioErro(){
 
         Response response = 
