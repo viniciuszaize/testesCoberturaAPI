@@ -4,7 +4,7 @@ Este projeto tem como objetivo realizar testes automatizados de API utilizando R
 
 ## Autor
 
-Este projeto foi desenvolvido por [Vinicius Zaize](https://github.com/viniciuszaize) 
+Este projeto foi desenvolvido por [Vinicius Zaize] (https://github.com/viniciuszaize) 
 
 ## Testes Implementados
 
@@ -19,15 +19,18 @@ Os testes cobrem os seguintes cenários:
 
 Todos os testes foram implementados para validar as possíveis respostas da API, incluindo status codes como **200 (OK), 201 (Criado), 400 (Bad Request), 401 (Não Autorizado)**.
 ## O projeto está configurado com uma Pipeline CI/CD no GitLab
-É possivel rodar os teste diretamente do repo https://gitlab.com/automation-tests8370041/testesdecoberturaapi.git
+É possivel rodar os teste diretamente do repo Gitlab [https://gitlab.com/automation-tests8370041/testesdecoberturaapi.git]
 
-## Como Executar os Testes
-1. Vá até opção Builds
-2.  clique em pipeline
-3.  clique em New pipeline
-4. escolha branch "Master" e clique em new pipeline
-5. após finalizar a run é possivel baixar os resultados clicando na opção "Actions"
-6. na opção jobs dentro da Builds é possivel visualizar os resultados 
+## ✅ Como Executar os Testes no GitLab CI/CD
+
+1. Acesse o GitLab e vá até o repositório do projeto.
+2. No menu lateral, clique em **Builds**.
+3. Selecione a opção **Pipeline**.
+4. Clique em **New Pipeline**.
+5. Escolha a branch **Master** e clique em **Run Pipeline**.
+6. Aguarde a execução da pipeline.
+7. Após a finalização, você pode baixar os resultados clicando em **Actions**.
+8. Para visualizar os logs e detalhes dos testes, vá até **Jobs** dentro da seção **Builds**.
 
 
 ### Pré-requisitos
@@ -38,7 +41,7 @@ Para executar os testes, é necessário ter instalado:
 - **Maven**
 - **RestAssured**
 
-### Passos para execução
+### Passos para execução Local
 
 1. Clone o repositório:
    ```sh
