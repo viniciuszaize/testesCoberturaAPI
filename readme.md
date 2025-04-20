@@ -1,5 +1,5 @@
 
-## Testes de API com RestAssured
+## Testes Funcionais de API com RestAssured
 Este projeto tem como objetivo realizar testes automatizados de API utilizando RestAssured. Foram implementados testes para validar as funcionalidades de criação, atualização, login, listagem e deleção de usuários, além de testes de carga para verificar a performance da aplicação.
 
 ## Autor
