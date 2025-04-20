@@ -21,7 +21,7 @@ Todos os testes foram implementados para validar as possíveis respostas da API,
 ## O projeto está configurado com uma Pipeline CI/CD no GitLab
 É possivel rodar os teste diretamente do repo Gitlab [https://gitlab.com/automation-tests8370041/testesdecoberturaapi.git]
 
-## ✅ Como Executar os Testes no GitLab CI/CD
+## Como Executar os Testes no GitLab CI/CD
 
 1. Acesse o GitLab e vá até o repositório do projeto.
 2. No menu lateral, clique em **Builds**.
@@ -54,7 +54,7 @@ Para executar os testes, é necessário ter instalado:
 
 2. Acesse a pasta do projeto:
    ```sh
-   cd nome-do-projeto
+   cd testesCoberturaAPI
    ```
 
 3. Execute os testes com Maven:
